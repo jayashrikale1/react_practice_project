@@ -2,6 +2,7 @@
   "name": "react_practice_project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jayshrikale1.github.io/react_practice_project/",
   "type": "module",
   "scripts": {
     "dev": "vite",
