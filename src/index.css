@@ -1,44 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  scroll-behavior: smooth;
-}
-
-body {
-  @apply bg-gray-950 text-white antialiased overflow-x-hidden;
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: #0f172a;
-}
-::-webkit-scrollbar-thumb {
-  background: #334155;
-  border-radius: 5px;
-  border: 2px solid #0f172a;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #475569;
-}
-
-/* Glass Effect Utility */
-.glass {
-  @apply bg-white/5 backdrop-blur-lg border border-white/10;
-}
-
-.glass-card {
-  @apply bg-gray-900/40 backdrop-blur-md border border-gray-800 hover:border-indigo-500/50 transition-all duration-300;
-}
-
-.text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
-}
-
-/* Define custom theme values if needed using @theme */
 @theme {
   --color-primary: #6366f1;
   --color-secondary: #ec4899;
@@ -53,4 +14,9 @@ body {
     66% { transform: translate(-20px, 20px) scale(0.9); }
     100% { transform: translate(0px, 0px) scale(1); }
   }
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  scroll-behavior: smooth;
 }

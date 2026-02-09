@@ -1,16 +1,57 @@
-# React + Vite
+# Lumina Creative Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![CI/CD Pipeline](https://github.com/jayshrikale1/react_practice_project/actions/workflows/ci-cd.yml/badge.svg)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jayshrikale1.github.io/react_practice_project/)
 
-Currently, two official plugins are available:
+A modern, professional Single Page Application (SPA) built with React, Vite, and Tailwind CSS v4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[View Live Site](https://jayshrikale1.github.io/react_practice_project/)
 
-## React Compiler
+## ✨ Features
+- **Modern UI/UX**: Glassmorphism design, gradient text, and dynamic background animations.
+- **Responsive**: Fully responsive design for all devices.
+- **Animations**: Smooth scroll animations powered by Framer Motion.
+- **CI/CD**: Automated testing and deployment pipeline using GitHub Actions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- **React 19**: Modern UI library.
+- **Vite**: Blazing fast build tool.
+- **Tailwind CSS v4**: Utility-first CSS framework.
+- **Framer Motion**: Production-ready animation library.
+- **Vitest**: Unit testing framework.
+- **GitHub Actions**: CI/CD automation.
 
-## Expanding the ESLint configuration
+## 🚦 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jayshrikale1/react_practice_project.git
+   cd react_practice_project
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Run tests**
+   ```bash
+   npm run test
+   ```
+
+## 📦 Building for Production
+
+```bash
+npm run build
+```
+
+## 🔄 CI/CD Pipeline
+This project uses GitHub Actions for Continuous Integration and Deployment:
+- **CI**: Runs on every push. Checks code quality (ESLint) and runs unit tests (Vitest).
+- **CD**: Deploys to GitHub Pages automatically when changes are pushed to the `main` branch.
