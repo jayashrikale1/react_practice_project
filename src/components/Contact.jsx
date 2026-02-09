@@ -23,7 +23,9 @@ const Contact = () => {
             <p className="text-gray-400 text-lg mb-10 leading-relaxed">
               Ready to start your next project? We are here to help you turn your vision into reality. Reach out to us for a consultation.
             </p>
-            
+             <p className="text-gray-400 text-lg mb-10 leading-relaxed">
+              Ready to start your next project? We are here to help you turn your vision into reality. Reach out to us for a consultation.
+            </p>
             <div className="space-y-8">
               {[
                 { icon: <Mail size={24} />, text: "hello@luminacreative.com", label: "Email Us" },
