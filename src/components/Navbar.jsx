@@ -45,7 +45,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a href="#contact" className="bg-white text-dark hover:bg-gray-100 px-6 py-2.5 rounded-full text-sm font-bold transition-all transform hover:scale-105 shadow-lg shadow-white/10">
-                Let's Talk
+                Let&apos;s Talk
               </a>
             </div>
           </div>

@@ -18,7 +18,7 @@ const Contact = () => {
           >
             <h2 className="text-primary font-bold tracking-wide uppercase text-sm mb-3">Get in Touch</h2>
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Let's create something <br/><span className="text-gradient">amazing together.</span>
+              Let&apos;s create something <br/><span className="text-gradient">amazing together.</span>
             </h3>
             <p className="text-gray-400 text-lg mb-10 leading-relaxed">
               Ready to start your next project? We are here to help you turn your vision into reality. Reach out to us for a consultation.
